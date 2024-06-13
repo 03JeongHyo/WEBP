@@ -1,10 +1,3 @@
 # WEBP 이미지
-![수영복](https://github.com/03JeongHyo/WEBP/assets/105775149/8be2d424-1fbb-4345-b95d-bf168816709a)
-![수모](https://github.com/03JeongHyo/WEBP/assets/105775149/d8889551-d236-4849-ac70-0ec469dc63fe)
-![수경](https://github.com/03JeongHyo/WEBP/assets/105775149/4b533533-ed11-4e01-adba-59ba36f5bbb1)
-![소](https://github.com/03JeongHyo/WEBP/assets/105775149/d7a86975-2532-4476-ae37-c2f2e84c2724)
-![산](https://github.com/03JeongHyo/WEBP/assets/105775149/378a2446-3b18-4e7b-b47b-418b0099ad8d)
-![빌딩](https://github.com/03JeongHyo/WEBP/assets/105775149/d056d1b5-56eb-4de9-bea2-c2b805492a84)
-![미용사](https://github.com/03JeongHyo/WEBP/assets/105775149/44c26c21-8df8-4291-98bb-1c8ab2ce7ca9)
-![등산스틱](https://github.com/03JeongHyo/WEBP/assets/105775149/294bbf00-d5d9-4020-9ba3-3542346d1ae9)
-![논](https://github.com/03JeongHyo/WEBP/assets/105775149/a2654a5a-99e2-4e60-9291-6297a87ae344)
+![소](https://github.com/03JeongHyo/WEBP/assets/105775149/a6e912ad-4c62-4f46-b7bf-8f0750fdb4ae)
+![논](https://github.com/03JeongHyo/WEBP/assets/105775149/89cf1379-a0d4-4d9f-a997-94eaaa425bf0)
