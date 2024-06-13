@@ -1,5 +1,5 @@
 # WEBP 이미지
-![논](img src="/assets/논.jpg")
+![논](./assets/논.jpg")
 ![빌딩](https://github.com/03JeongHyo/WEBP/assets/105775149/f181d35b-9af9-4083-906c-0ec9f1f62075)
 ![소](https://github.com/03JeongHyo/WEBP/assets/105775149/60e4fe1d-47c9-40a9-9209-28f6078a5385)
 ![산](https://github.com/03JeongHyo/WEBP/assets/105775149/075a6b57-167d-4a41-88df-23411f2f8802)
