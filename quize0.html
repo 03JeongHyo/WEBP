@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3a3eeac74a.js" crossorigin="anonymous"></script>
-    <title>A_</title>
+    <title>A_2_4(하)</title>
     
     <style>
         #contentTitle {
@@ -36,7 +36,13 @@
     
         #answerPart1 {
             display: flex; 
-            justify-content: space-between; 
+            justify-content: space-between;     
+        }
+        #answerPart1 .answerWrapper:hover {
+            transform: scale(1.1); 
+        }
+        #answerPart1 .answerWrapper:hover img {
+            filter: brightness(70%); 
         }
         #question1{
             margin-bottom: 30px;
@@ -53,6 +59,7 @@
             width: 200px; 
             height: 200px;
         }
+        
         .answerNumber {
             align-self: flex-start; 
             margin-bottom: 10px; 
@@ -67,7 +74,7 @@
             color: rgb(255, 148, 9); 
         }
           
-              #progressBarContainer {
+        #progressBarContainer {
             width: 100%;
             background-color: #f3f3f3;
             border: 1px solid #ccc;
@@ -103,6 +110,12 @@
             width: 200px; 
             height: 200px;
         }
+        #answerPart2 .answerWrapper:hover {
+            transform: scale(1.1); 
+        }
+        #answerPart2 .answerWrapper:hover img {
+            filter: brightness(70%); 
+        }
         .answerNumber {
             align-self: flex-start; 
             margin-bottom: 10px; 
@@ -125,6 +138,13 @@
         .selected { 
             color: rgb(255, 148, 9); 
         }
+        #button {
+            display: flex;
+            text-align: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+    
         #submit {
             padding: 15px 20px;
             font-size: 30px;
@@ -134,12 +154,27 @@
             border-radius: 10px; 
             cursor: pointer;
             transition: background-color 0.3s ease; 
-            margin-left: 830px;
-    
+            width: 200px;
+            margin-left: 380px;
         }
 
         #submit:hover {
-            background-color: #45a049; 
+            background-color: #309435; 
+        }
+        #next {
+            padding: 15px 20px;
+            font-size: 30px;
+            background-color: #3785fa;
+            color: white;
+            border: none;
+             
+            cursor: pointer;
+            transition: background-color 0.3s ease; 
+            width: 150px;
+            margin-left: 240px;
+        }
+        #next:hover {
+            background-color: #0a4bae; 
         }
     </style>
 </head>
@@ -149,7 +184,7 @@
         <div id="content">
             <i class="fa-solid fa-seedling" style="color: #3bc002;"></i><div id="add">상황에 맞는 사진 찾기</div>
             <div id="contentQ">
-                다음의 지문을 읽고 문제를 풀어보세요(1~2)
+                <b>다음의 지문을 읽고 문제를 풀어보세요(1~2)</b>
             </div>
             <!-- 진행 상황 표시 바 -->
             <div id="progressBarContainer">
@@ -203,7 +238,11 @@
             </div>
     
             <div id="result"></div>
-            <button id="submit">제출하기</button>
+            <div id="button">
+                <button id="submit">제출하기</button> 
+                <button id="next">다음</button>
+            </div>
+            
         </div>
     </div>
     <script>
@@ -214,7 +253,7 @@
             const resultDiv = document.getElementById('result');
             const progressBar = document.getElementById('progressBar');
             let currentProgress = 0;
-            const totalQuestions = 2; // 전체 문제 수 설정
+            const totalQuestions = 2; 
     
             answerNumbers1.forEach(function (number) {
                 number.addEventListener('click', function () {
